@@ -4,9 +4,10 @@ import VisibilitySensor from 'react-visibility-sensor'
 
 
 type Props = {
-  autoplay: boolean;
-  src: string;
-  className: string;
+  autoplay: boolean
+  src: string
+  className?: string
+  mobile?: string
 }
 
 type State = {
@@ -49,6 +50,7 @@ class Video extends React.Component<Props, State> {
             allowFullScreen
           />
         }
+        <img src={this.props.mobile} className="video__mobile" alt="" />
       </div>
     </VisibilitySensor>
 }

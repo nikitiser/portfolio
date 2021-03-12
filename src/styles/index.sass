@@ -168,6 +168,7 @@ body
       content: ''
       @extend .abs-cover
       opacity: 0
+    @extend .desktop-only
   &::before,
   &::after
     @extend .desktop-only
@@ -183,5 +184,14 @@ body
     height: 14%
   &::after
     bottom: 0
+  &__mobile
+    @extend .mobile-only
+    width: 100% !important
+    height: auto
 
     
+.lev-img
+  width: 50%
+  height: auto
+  @include media-breakpoint-down(sm)
+    width: 80%

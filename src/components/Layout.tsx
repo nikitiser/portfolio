@@ -20,6 +20,7 @@ const Header: FunctionComponent<Props> = ({ projects }) =>
               className="Layout__project__video__item"
               src={getVideoId(block.link)}
               autoplay={block.autoplay || false}
+              mobile={block.mobile}
             />
           )}
         </div>

@@ -10,7 +10,7 @@ const data: Project[] = [
         link: "https://youtu.be/F69Y9cdugAI",
         autoplay: true,
          // mobile: "https://psv4.userapi.com/c538600/u63043058/docs/c7e67fb5a07a/5.jpg?extra=_3AAjYufIzs-eRv7I6kX3kDCT5bX_5V_xRV9ds-Ml-UT6OlqyOHfPPbqT4P2FOoIFE3S9QlYxI_YxavQWz3SJ--RunosOpBnWB8_YoL_6-nFYU7BBJKJRo-403Ks6gFKW39OKJnJI7dNyO6MyFN_Nw"
-         mobile: "https://gph.is/g/4AkWWDD"
+         mobile: "https://media0.giphy.com/media/lKSwLrnXzXCxnD6cGT/giphy.gif"
       },
 
     ],
@@ -22,7 +22,7 @@ const data: Project[] = [
       {
         link: "https://youtu.be/02tdnN6M6cI",
         autoplay: true,
-        mobile: "https://i.giphy.com/media/E5Y0Lf7VixNMqWWIDe/giphy.mp4"
+        // mobile: "https://i.giphy.com/media/E5Y0Lf7VixNMqWWIDe/giphy.mp4"
       },
       {
         link: "https://youtu.be/L93qbj61zPg",
