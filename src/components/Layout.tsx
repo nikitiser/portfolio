@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react'
 
-import Video from '../components/Video'
+import Video from '../components/Video_'
 import { Project } from '../types'
 import getVideoId from '../utils/getVideoId'
 
@@ -19,7 +19,7 @@ const Header: FunctionComponent<Props> = ({ projects }) =>
             <Video
               className="Layout__project__video__item"
               src={getVideoId(block.link)}
-              autoplay={block.autoplay}
+              autoplay={block.autoplay || false}
             />
           )}
         </div>

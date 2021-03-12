@@ -21,6 +21,7 @@ class App extends React.Component {
             <Switch>
               {routes.map(route =>
                 <Route
+                  key={route.link}
                   path={route.link}
                   exact={route.link === "/"}
                 >

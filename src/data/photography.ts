@@ -3,150 +3,44 @@ import { Project } from '../types'
 
 const data: Project[] = [
   {
-    title: "CoronaRhytmus",
-    description: "printemps 2020",
+    title: "",
+    description: "",
     blocks: [
       {
-        link: "https://youtu.be/F69Y9cdugAI",
+        link: "",
         autoplay: true,
       },
 
     ],
   },
   {
-    title: "#BullRun2021 NFT Cryptoart collection",
-    description: "hiver 2021",
+    title: "Portraits",
+    description: "",
     blocks: [
       {
-        link: "https://youtu.be/02tdnN6M6cI",
-        autoplay: true,
-      },
-      {
-        link: "https://youtu.be/L93qbj61zPg",
-        autoplay: true,
-      },
-      {
-        link: "https://youtu.be/5W2C_pPNZaQ",
-        autoplay: true,
-      },
-    ],
-  },
-  {
-    title: "Self isolation ⛓🖤 Introspection🕳",
-    description: "printemps 2020",
-    blocks: [
-      {
-        link: "https://www.youtube.com/watch?v=R-gpe9G6ZUI",
-        autoplay: true,
-      },
-      {
-        link: "https://www.youtube.com/watch?v=py5K3ZjmASU",
-        autoplay: true,
-      },
-      {
-        link: "https://www.youtube.com/watch?v=pkN7i85rV4g",
-        autoplay: true,
-      },
-    ],
-  },
-  {
-    title: "#Rassvet",
-    description: "logo creation & animation Digital Assets & Art Fund #Rassvet. hiver 2021",
-    blocks: [
-      {
-        link: " https://youtu.be/dmlUQXkQ5J4",
-        autoplay: false,
-      },
-
-    ],
-  },
-  {
-    title: "11.d",
-    description: "logo animation pour marque des vêtements",
-    blocks: [
-      {
-        link: "https://youtu.be/9Aa--gTAKeM",
-        autoplay: true,
-      },
-      {
-        link: "https://youtu.be/frf83HiRU_s",
-        autoplay: true,
-      },
-      {
-        link: "https://youtu.be/LARp-BHzr7c",
-        autoplay: true,
-      },
-    ]
-  },
-  {
-    title: "TrainFeel visualising",
-    description: "été 2020",
-    blocks: [
-      {
-        link: "https://www.youtube.com/watch?v=ljzm4yCfvs4",
+        link: "",
         autoplay: true,
       },
 
     ],
   },
   {
-    title: "Mandelbrot fractal floating",
-    description: "été 2020",
+    title: "",
+    description: "",
     blocks: [
       {
-        link: "https://www.youtube.com/watch?v=L4HTShP16iI",
+        link: "https://psv4.userapi.com/c534536/u63043058/docs/d38/dcdd4acea6bb/Snimok_ekrana_2021-03-09_v_17_05_43.png?extra=Ko4ma0gyhq6YQJSrQbuQ_UrtEf81927hlH27pOCJMCPj0kq_VgW9RZy7P8s-bpueABl3CmYmYmueqwwpzNSDm8eP5UMPUUJX2otVURfdCJC7hdtRbSscfQkL7L8NszsZt-GJPkzhQK_adgTSfSc-bSeW",
         autoplay: true,
       },
 
     ],
   },
   {
-    title: "HumanDesign",
-    description: "automne 2019",
+    title: "",
+    description: "",
     blocks: [
       {
-        link: "https://www.youtube.com/watch?v=YO2wMTL4SAc",
-        autoplay: true,
-      },
-      {
-        link: "https://www.youtube.com/watch?v=faow_zaMD4Y",
-        autoplay: true,
-      },
-      {
-        link: "https://www.youtube.com/watch?v=UisWdaaRkuM&t=3s",
-        autoplay: true,
-      },
-    ],
-  },
-  {
-    title: "Liquid chess création & animation",
-    description: "printemps 2019",
-    blocks: [
-      {
-        link: "https://www.youtube.com/watch?v=qyiGFyeaY_k",
-        autoplay: true,
-      },
-      {
-        link: "https://youtu.be/TMSguQKt4Ac",
-        autoplay: true,
-      },
-
-    ],
-  },
-  {
-    title: "Mantra font development, poster animation",
-    description: "printemps 2020",
-    blocks: [
-      {
-        link: "https://youtu.be/zdoDvcr7BtA",
-        autoplay: true,
-      },
-      {
-        link: "https://youtu.be/_dLRvB74Hxw",
-        autoplay: true,
-      },
-      {
-        link: "https://youtu.be/dcBBUG1VNxI",
+        link: "https://psv4.userapi.com/c534536/u63043058/docs/d35/21062d3b1997/Snimok_ekrana_2021-03-09_v_17_07_14.png?extra=FeZYaEAgCHeyoFlzoU9j6gkQPctRn-3nQ591z3YU91UWsWj8RDzjwAIo2UGtoGxmOy9xRlXE2GvpUuLg5dFuEBHn1GFcbOAYLQ_K_WwxwwDFXFTNas292qKNVoDiMIpwPDlbJpK-TGzLf_cYKOtlIKXQ",
         autoplay: true,
       },
     ],
@@ -156,11 +50,131 @@ const data: Project[] = [
     description: "",
     blocks: [
       {
-        link: "https://www.youtube.com/watch?v=kNV0_WZcso0",
+        link: "",
+        autoplay: true,
+      },
+
+    ],
+  },
+  {
+    title: "",
+    description: "",
+    blocks: [
+      {
+        link: "",
+        autoplay: true,
+      },
+
+    ],
+  },
+  {
+    title: "Natures mortes photographiques",
+    description: "",
+    blocks: [
+      {
+        link: "",
+        autoplay: true,
+      },
+
+    ],
+  },
+  {
+    title: "",
+    description: "",
+    blocks: [
+      {
+        link: "https://psv4.userapi.com/c534536/u63043058/docs/d27/3aad015fa7bd/Snimok_ekrana_2021-03-09_v_17_07_37.png?extra=-axzV3HuZAwwsRzlwiTPYq0PS9VXthwiBc0CT4kI4neYf_BlhAnopO2VX5DCpM82un9Tk5G0J013Ij_hPPpaHcaGtIjhSIDiuQj32D7MY73gEgXgu2mi_YRfSrIa_yok1OUdR910bLBeOapdqNARW1P7",
+        autoplay: true,
+      },
+    ]
+  },
+  {
+    title: "",
+    description: "",
+    blocks: [
+      {
+        link: "",
+        autoplay: true,
+      },
+
+    ],
+  },
+  {
+    title: "Ville",
+    description: "",
+    blocks: [
+      {
+        link: "",
+        autoplay: true,
+      },
+
+    ],
+  },
+  {
+    title: "",
+    description: "",
+    blocks: [
+      {
+        link: "https://psv4.userapi.com/c534536/u63043058/docs/d47/a63013ad041e/Snimok_ekrana_2021-03-09_v_17_07_47.png?extra=mH5KUFFTkX8Igt3d_u4GIsndNYfmhRDgB3pPw_QMcdMFRhiiRoJ4ELx6iymYMYqLmWCITzDesXwFxesqk01jPhSZmjIvVQvAaLpPvQSu5i2URdp5o7X_OPlknra_a9WYTpGBCZ7YdWhn8g3hdbrQL1pk",
+        autoplay: true,
+      },
+
+    ],
+  },
+  {
+    title: "",
+    description: "",
+    blocks: [
+      {
+        link: "https://psv4.userapi.com/c534536/u63043058/docs/d28/05306255ee6e/Snimok_ekrana_2021-03-09_v_17_07_03.png?extra=VKEXs40dP_A7iQsUmQe6nLD2iDa9xey6cNRtTqEHTp1vl6_AfWKlGY8vtif9VYgAaEMjkXkLZJluzLRlL8XWhKqGXNgN6dYSjIwLwPk19P1MZ75tKucRf9QAcc683UfUT37FqnDOq6dKFJtpWS_8zmkx",
+        autoplay: true,
+      },
+
+    ],
+  },
+  {
+    title: "",
+    description: "",
+    blocks: [
+      {
+        link: "",
+        autoplay: true,
+      },
+
+    ],
+  },
+  {
+    title: "Photographique",
+    description: "",
+    blocks: [
+      {
+        link: "",
+        autoplay: true,
+      },
+
+    ],
+  },
+  {
+    title: "",
+    description: "",
+    blocks: [
+      {
+        link: "https://psv4.userapi.com/c534536/u63043058/docs/d23/b4396bfa570a/Snimok_ekrana_2021-03-09_v_17_06_21.png?extra=1vlVUT6Qe4TqfTVTVWgWIUeP4SadgbUsvZIZVQUk9_CJ2kxOdSva15RscUfaxIHEZbNovemP0MuteGeZp15yaoI-uOWQqyfBG4axdR1X8mWbEu1b8SJ-ZentSJ9JYbBAkuzpVgUWrPc4wJROUntYL8oW",
+        autoplay: true,
+      },
+
+    ],
+  },
+  {
+    title: "",
+    description: "",
+    blocks: [
+      {
+        link: "https://psv4.userapi.com/c534536/u63043058/docs/d26/2a93230e1213/Snimok_ekrana_2021-03-09_v_17_06_44.png?extra=WmIW8B7Le_QGbomSsN2Y2byDd_fzQYJLdP4gxUmYa67ZvWiJEprG1cQF_GrYiVxiwzERzlfMut4FHDZG4YfuEVkrVlevMR64dhVFDT0z9ctx8iibF8PvoRDgRADtMfResm2WKtYT0VQtfmyL9sk16h6L",
         autoplay: true,
       },
     ],
-  }
+  },
 ]
 
 
