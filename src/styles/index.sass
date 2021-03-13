@@ -94,6 +94,9 @@ body
     @extend .justify-content-around
     // @extend .justify-content-md-end
     // @extend .justify-content-start
+    .Link
+      font-family: 'Zagolovki', Helvetica, sans-serif !important
+      font-size: rem(18) !important
     @include media-breakpoint-down(md)
       background-color: $dark
       padding-right: rem(20)
@@ -190,8 +193,55 @@ body
     height: auto
 
     
-.lev-img
-  width: 50%
-  height: auto
-  @include media-breakpoint-down(sm)
-    width: 80%
+
+
+
+.Contacts
+  &__name
+    width: 100%
+    @extend .h1
+    text-align: center
+    @extend .mb-5
+  &__links
+    @extend .col-12 
+    @extend .col-lg-6
+    @extend .d-flex
+    @extend .justify-content-between
+    @extend .align-content-start
+    @extend .flex-wrap
+    @extend .mb-5
+    &__item
+      @extend .button
+      display: inline-block
+      width: 42%
+      text-align: center
+      margin-bottom: rem(42)
+      border-radius: rem(100)
+      background-color: gray
+      color: white
+      font-size: rem(24)
+      line-height: rem(66)
+      &:hover
+        color: white
+        text-decoration: none
+      @include media-breakpoint-down(md)
+        margin-bottom: rem(35)
+        line-height: rem(42)
+        font-size: rem(18)
+  &__photo
+    @extend .col-12 
+    @extend .col-lg-6
+    @extend .d-flex
+    @extend .justify-content-center
+    @extend .mb-5
+    img
+      width: 90%
+      height: auto
+      @include media-breakpoint-down(md)
+        width: 50%
+      @include media-breakpoint-down(sm)
+        width: 70%
+  &__Lev
+    width: 100%
+    margin-top: rem(100)
+    text-align: center
