@@ -11,6 +11,12 @@ class Contacts extends React.Component<{}, {}> {
       <ExternalLink newTab to="https://t.me/ssmarta">
         Telegram
       </ExternalLink>,<br />
+      <ExternalLink newTab to="https://www.behance.net/s_marta">
+        Behance
+      </ExternalLink>,<br />
+      <ExternalLink newTab to="https://www.youtube.com/channel/UCKQpivpLQOIo2AHrwzsu2-g/videos?view_as=subscriber">
+        Youtube
+      </ExternalLink>,<br />
       <ExternalLink newTab to="https://www.facebook.com/marta.shilova.7">
         facebook
       </ExternalLink>,<br />
