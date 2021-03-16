@@ -16,12 +16,19 @@ const Header: FunctionComponent<Props> = ({ projects }) =>
       <div className="Layout__project">
         <div className="Layout__project__video">
           {project.blocks.map(block =>
-            <Video
-              className="Layout__project__video__item"
-              src={getVideoId(block.link)}
-              autoplay={block.autoplay || false}
-              mobile={block.mobile}
-            />
+            block.link?.includes('youtu') ?
+              <Video
+                className="Layout__project__video__item"
+                src={getVideoId(block.link)}
+                autoplay={block.autoplay || false}
+                mobile={block.mobile}
+              />
+              :
+              <img
+                src={block.link}
+                alt={block.description || ""}
+                className="Layout__project__video__img"
+              />
           )}
         </div>
         <h1 className="Layout__project__h1">

@@ -146,6 +146,11 @@ body
       &__item
         @extend .flex-grow-1
         @extend .mx-3
+      &__img
+        @extend .mx-3
+        width: 30%
+        @include media-breakpoint-down(md)
+          width: 70%
     &__h1
       font-family: 'Zagolovki', Helvetica, sans-serif
       position: relative
