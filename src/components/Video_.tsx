@@ -34,7 +34,7 @@ class Video extends React.Component<Props, State> {
         {this.props.autoplay ?
           <iframe
             src={!this.state.needsLoad ? "" : `https://www.youtube.com/embed/${this.props.src}?autoplay=1&amp;loop=1&amp;enablejsapi=1&amp;&amp;playerapiid=featuredytplayer&amp;controls=0&amp;modestbranding=1&amp;rel=0&amp;showinfo=0&amp;color=white&amp;iv_load_policy=3&amp;theme=light&amp;wmode=transparent&amp;playlist=${this.props.src}&amp;mute=1`}
-            className="video__iframe"
+            className={`video__iframe ${this.props.mobile && "desktop-only"}`}
             title={this.props.src}
             frameBorder="0"
             allow="autoplay"
@@ -43,14 +43,18 @@ class Video extends React.Component<Props, State> {
           :
           <iframe
             src={`https://www.youtube.com/embed/${this.props.src}`}
-            className="video__iframe"
+            className={`video__iframe ${this.props.mobile && "desktop-only"}`}
             title={this.props.src}
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
         }
-        <img src={this.props.mobile} className="video__mobile" alt="" />
+        <img
+          src={this.props.mobile}
+          className={`video__mobile ${this.props.mobile && "mobile-only"}`}
+          alt=""
+        />
       </div>
     </VisibilitySensor>
 }
