@@ -5,10 +5,10 @@ import { Project } from '../types'
 import getVideoId from '../utils/getVideoId'
 
 
+
 type Props = {
   projects: Project[]
 }
-
 
 const Header: FunctionComponent<Props> = ({ projects }) =>
   <div className="Layout">
@@ -27,7 +27,10 @@ const Header: FunctionComponent<Props> = ({ projects }) =>
               <img
                 src={block.link}
                 alt={block.description || ""}
-                className="Layout__project__video__img"
+                data-title={project.title || ""}
+                data-caption={block.description || ""}
+                className="Layout__project__video__img intense lazyload"
+                loading="lazy"
               />
           )}
         </div>
