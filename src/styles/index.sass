@@ -150,9 +150,9 @@ body
           width: 80%
           max-width: 45vw
           cursor: zoom-in
-      @include media-breakpoint-down(md)
-          width: 90%
-          max-width: 90%
+          @include media-breakpoint-down(md)
+            width: 90%
+            max-width: 90%
     &__h1
       font-family: 'Zagolovki', Helvetica, sans-serif
       position: relative
@@ -212,6 +212,9 @@ body
     @extend .align-content-start
     @extend .flex-wrap
     @extend .mb-5
+    margin-top: 10rem
+    @include media-breakpoint-down(md)
+      margin-top: 0
     &__item
       @extend .button
       display: inline-block
@@ -241,7 +244,7 @@ body
       width: 90%
       height: auto
       @include media-breakpoint-down(md)
-        width: 50%
+        width: 70%
       @include media-breakpoint-down(sm)
         width: 70%
   &__Lev

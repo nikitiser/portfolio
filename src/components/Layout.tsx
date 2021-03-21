@@ -24,7 +24,7 @@ const Header: FunctionComponent<Props> = ({ projects }) =>
                 mobile={block.mobile}
               />
               :
-              <img
+              <img 
                 src={block.link}
                 alt={block.description || ""}
                 data-title={project.title || ""}
